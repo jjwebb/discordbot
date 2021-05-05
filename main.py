@@ -192,7 +192,7 @@ async def on_message(message):
 
 #command list
 @client.command()
-async def harvhelp(ctx):
+async def help(ctx):
   await ctx.send("""MINESWEEPER: generate minesweeper board\n
                     CONNECT FOUR: play connect 4\n
                     GARFIELD PLEASE: random Garfield strip\n
